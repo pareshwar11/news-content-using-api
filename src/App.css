@@ -2,16 +2,46 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container .my .card{
+  width: 18rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (max-width: 768px){
+  .card{
+    width: 23rem;
   }
+  .card-text{
+    height: 90px;
+  }
+  .card-title{
+    height: 40px;
+  }
+  
+  .cardimg{
+    height: 190px;
+  }
+  
 }
+
+/* @media screen and (max-width: 968px){
+  .card{
+    width: 23rem;
+  }
+  .card-text{
+    height: 90px;
+  }
+  .card-title{
+    height: 40px;
+    font-size: 14px;
+  }
+  
+  .cardimg{
+    height: 190px;
+  }
+  
+} */
+
+
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +58,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card-text{
+  height: 90px;
+}
+.card-title{
+  height: 80px;
+}
+
+.cardimg{
+  height: 190px;
 }
